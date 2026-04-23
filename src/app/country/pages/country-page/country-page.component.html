@@ -1,0 +1,16 @@
+@if (countryResource.isLoading()) {
+<h1 class="text-3xl">
+  Buscando Paises...
+
+</h1>
+
+} @else if (countryResource.error()) {
+<app-not-found />
+} @else if (countryResource.hasValue()) {
+<app-country-information [country]="countryResource.value()" />
+}
+
+
+@if ( countryResource.error()) {
+} @else {
+}

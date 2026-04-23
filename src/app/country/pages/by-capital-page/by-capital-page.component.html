@@ -1,0 +1,6 @@
+<app-country-search-input placeholder="Buscar por Capital" (value)="query.set($event)" [initialValue]="query()" />
+
+<app-country-list [countries]="countryResource.hasValue() ? countryResource.value() : []"
+  [errorMessage]="countryResource.error()"
+  [isEmpty]="countryResource.hasValue() && countryResource.value().length === 0"
+  [isLoading]="countryResource.isLoading()" />
