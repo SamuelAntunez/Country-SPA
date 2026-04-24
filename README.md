@@ -2,9 +2,10 @@
 
 Esta aplicación es un buscador de países construido con **Angular (v19+)** que se conecta a la API pública de *REST Countries*. Su objetivo principal no es solo mostrar datos, sino poner en práctica conceptos avanzados de Angular como **Signals**, **Lazy Loading**, **Manejo de Estado Reactivo (rxResource)**, **Optimización de Caché** y **Sincronización de Estado con la URL**.
 
+[Country SPA en Netlify](https://samuel-country-spa.netlify.app/#/)
+
 A continuación, se presenta una explicación detallada, bloque por bloque, de cómo funciona la aplicación y cada línea de código fundamental.
 
-[click aqui para ver](https://samuel-country-spa.netlify.app/#/)
 ---
 
 ## 1. Sistema de Rutas y Carga Perezosa (Lazy Loading)
