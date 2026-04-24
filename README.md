@@ -4,6 +4,7 @@ Esta aplicación es un buscador de países construido con **Angular (v19+)** que
 
 A continuación, se presenta una explicación detallada, bloque por bloque, de cómo funciona la aplicación y cada línea de código fundamental.
 
+[click aqui para ver](https://samuel-country-spa.netlify.app/#/)
 ---
 
 ## 1. Sistema de Rutas y Carga Perezosa (Lazy Loading)
